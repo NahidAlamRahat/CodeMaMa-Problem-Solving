@@ -51,7 +51,6 @@ print(e);
   }
 } // MyException end
 
-
 forloopFunction(){
   int i = int.parse(stdin.readLineSync()!);
 

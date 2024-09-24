@@ -20,7 +20,6 @@
 
 
 
-
 class me extends Human{}        //etai hocche polymorphism . ekta jinis er
                                 // binno binno rup ache .
 class Frother extends Human{}

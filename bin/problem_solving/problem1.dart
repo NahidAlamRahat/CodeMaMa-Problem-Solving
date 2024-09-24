@@ -164,7 +164,6 @@ print(result);
 */
 // ===================== problem 12 solved ===============
 
-
 /*
 double? salary =  double.parse(stdin.readLineSync()!);
 
