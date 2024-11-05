@@ -135,6 +135,7 @@ String input =stdin.readLineSync()!;
 print(input.length);
 */
 // ===================== problem 10 solved ===============
+/*
 
 List<String> inputX= stdin.readLineSync()!.split(' ');
 double? x1 = double .parse(inputX[0]);
@@ -151,6 +152,7 @@ int sum= (X+Y).toInt();
 double result =sqrt(sum);
 
 print("Distance: "+result.toStringAsFixed(2).toString());
+*/
 // ===================== problem 11 Error ===============
 
 
@@ -268,8 +270,7 @@ print('Average: $result');
 */
 // ===================== problem 19 solved ===============
 
-/*
-List<String> input = stdin.readLineSync()!.split(' ');
+/*List<String> input = stdin.readLineSync()!.split(' ');
 
 int num1 = int .parse(input[0]);
 int num2 = int.parse(input[1]);
@@ -282,9 +283,62 @@ if(num2>sum){
 if(num3>sum){
   sum=num3 ;
 }
-print(sum);
-*/
+print(sum);*/
 // ===================== problem 20 solved ===============
 
 
+
+
+/*
+List<String> input = stdin.readLineSync()!.split(' ');
+
+int l1 = int.parse(input[0]);
+int r1 = int .parse(input[1]);
+int l2 = int .parse(input[2]);
+int r2 = int .parse(input[3]);
+
+
+
+for(int i = l1; i<=r1; i++){
+
+    if(i>=l2 && i<=r2){
+      continue;
+    }
+    stdout.write('$i '); // etar mane holo 1 2 3 4 5 .. erokom vabe print hobe. ektar pase ekta.
+
 }
+*/
+// =====================Module-8 problem 1 solved ===============
+
+
+/*
+
+int LW = int.parse(stdin.readLineSync()!);
+double sum = ((1000-LW)/2) ;
+
+if(sum<0){
+  print(0);
+}
+else{
+  print(sum.toInt());
+}
+*/
+
+// =====================Module-8 problem 2 solved ===============
+/*
+
+  int W = int.parse(stdin.readLineSync()!);
+  double sum= (W-300)/2;
+
+  if(sum<0){
+    print(0);
+  }
+  else{
+    print(sum.toInt());
+  }
+*/
+
+// =====================Module-8 problem 3 solved ===============
+
+
+}// main end

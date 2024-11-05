@@ -20,9 +20,7 @@ class BankManagement{
 
    double _balance = double.parse(stdin.readLineSync()!) ;  // eta holo private variable and etai holo Encapsulation.
 
-  BankManagement({required this.userName , required this.AccountNumber }){
-
-  }
+  BankManagement({required this.userName , required this.AccountNumber });
 
    deposit(deamount){
 
