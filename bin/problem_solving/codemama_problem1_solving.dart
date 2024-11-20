@@ -341,4 +341,101 @@ else{
 // =====================Module-8 problem 3 solved ===============
 
 
+
+  /*
+ Map<int,String>map={31231: 'Banana',43861: 'Elderberry', 82678: 'Honeydew Melon', 23456:'Apple', 78901:'Mango',
+    98765:'Nectarine', 45678:'Orange',67890: 'Raspberry', 21098: 'Tangerine'
+  } ;
+
+  int itemId=int.parse(stdin.readLineSync()!);
+
+  if(map.containsKey(itemId)){
+    print(map[itemId]);
+  }
+  */
+
+  // =====================Module-9 problem 1 solved ===============
+
+
+/*
+  List<String> firstSerial = stdin.readLineSync()!.split(' ');
+
+  int serialNum = int.parse(firstSerial[0]);
+  int item = int.parse(firstSerial[1]);
+
+  if(serialNum>=0 && serialNum<=101){
+    int result= item*10; // 10 holo price
+    print(result);
+  }
+  else if(serialNum>101 && serialNum<=202){
+    int result1= item*25;
+    print(result1);
+  }
+  else if(serialNum>202 && serialNum<=303){
+    int result2= item*5;
+    print(result2);
+  }
+
+*/
+
+// =====================Module-9 problem 2 solved ===============
+
+
+/*
+
+List<String> workList= stdin.readLineSync()!.split(' ');
+
+int swork = int.parse(workList[0]);
+int ework = int .parse(workList[1]);
+
+
+  if(swork==ework){
+    print(24);
+  }
+  else{
+    int  result = workTime(swork, ework);
+    print(result);
+  }
+
 }// main end
+
+int workTime (int start , int end){
+if(end>=start){
+int sum = end-start;
+return sum;
+}
+else{
+  return (24-start)+end;
+}
+
+}
+*/
+  // =====================Module-11 problem 1 solved ===============
+
+/*
+  List<String> listInput=[];
+
+  for(int i =0 ; i <10 ; i ++){
+    String input = stdin.readLineSync()!.toUpperCase();
+    listInput.add(input);
+  }
+
+  int count = 0 ;
+
+  for(String sInput in listInput){
+    if(sInput.contains('T')){
+
+      count++;
+    }
+
+  }
+
+  print(count);
+*/
+  // =====================Module-11 problem 2 solved ===============
+
+
+
+
+
+} // main end
